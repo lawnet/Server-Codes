@@ -18,16 +18,16 @@ app.post('/mail', function (req, res) {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'namborshop@gmail.com',
-        pass: 'Aikido@0123'
+        user: 'mail@gmail.com',
+        pass: 'Pass@0123'
       }
     });
 
     var mailOptions = {
-      from: 'namborshop@gmail.com',
-      to: 'nilawsaikia@gmail.com, suprotim.026x@gmail.com',
+      from: 'mail@gmail.com',
+      to: 'user1@gmail.com, User2@gmail.com',
       subject: 'Order Placed',
-      text: 'Hurry Up!!! Inform the respected Restaurant.'
+      text: 'Your Message.'
     };
 
     transporter.sendMail(mailOptions, function(error, info){
