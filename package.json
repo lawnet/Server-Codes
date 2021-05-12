@@ -12,7 +12,7 @@
   "dependencies": {
     "emailjs": "^2.2.0",
     "express": "^4.16.4",
-    "nodemailer": "^5.1.1"
+    "nodemailer": "^6.4.16"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
